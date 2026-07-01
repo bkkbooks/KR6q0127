@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6q0127/X/v1
+canonical_location: https://kanripo.org/bkk/KR6q0127/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 智證傳
+  identifiers:
+    krp: KR6q0127
+    cbeta: X63n1235
+    cbeta_old_id: X63n1235
+    authorityid: CA0004097
+    json_key: X1235
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X63/X63n1235.xml
+    old_id: X63n1235
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0127_000-X.yaml, hash: 'sha256:13b2edf7b0edccdd0e08cd9036ecdc499be1738cd60bc2b74a36da4fdadb5188'}
+  - {seq: 1, filename: KR6q0127_001-X.yaml, hash: 'sha256:3f02a26d4f9f0d0644c1c2c1a2a37763467558b96d156434b6c963aed2192eea'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6q0127_000-X.markers.yaml, hash: 'sha256:a205f52b289982c5f38d48070a7ac3663d6b5875567b34d77cc0772554b5f018'}
+  - {seq: 1, role: markers, filename: assets/KR6q0127_001-X.markers.yaml, hash: 'sha256:6df5cbbe28cd2abab338ef0c149b43b00f33171f1fe316db5a3afb3ab5436960'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6q0127_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 1235-A 重刻智證傳引
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6q0127_X_000-mulu-2
+    span:
+    - front
+    - 356
+    - 356
+  label: 智證傳
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0127_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 31831
+  label: 智證傳原本分十卷今合為一卷附寶鏡三昧
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0127_X_001-mulu-1
+    span:
+    - body
+    - 29124
+    - 29124
+  label: No. 1235-B 雲巖寶鏡三昧
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0127_X_001-mulu-2
+    span:
+    - body
+    - 31492
+    - 31492
+  label: No. 1235-C
+  type: mulu
+  level: 1
+hash: sha256:d20d14776fc8ddec443e8574f92a87fe9314716f523b50f56142f42d742e492b
