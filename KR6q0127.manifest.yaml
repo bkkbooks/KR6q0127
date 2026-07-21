@@ -21,17 +21,17 @@ editions:
 - short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6q0127_000.yaml, hash: 'sha256:b284de013fcba1c3eb283ed9076f75de7aa34d7b4ec4a2235dc9372eccef7747'}
+  - {seq: 0, filename: KR6q0127_000.yaml, hash: 'sha256:d802cc1ea9a4580537e2d76eaa8e946bece6ef18d4abdcd5d93837c70e3e6172'}
   - {seq: 1, filename: KR6q0127_001.yaml, hash: 'sha256:1d9c2de005ee694aa3c5577bf7f1ce42b546b11c7a2aeb4e799277cdf788ea33'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6q0127_000.markers.yaml, hash: 'sha256:d28881a683e5fb73e6802b9f7c0fba8e770187a2d0b63880c9d3e31d74370765'}
+  - {seq: 0, role: markers, filename: assets/KR6q0127_000.markers.yaml, hash: 'sha256:bd9192b738d9fb7b5b7d6da321485ed75213aa6383ec6a7dedaf5a396449a3eb'}
   - {seq: 1, role: markers, filename: assets/KR6q0127_001.markers.yaml, hash: 'sha256:0c3e76b740a46a8757d86d8128f3904d6a25b4bfd07861ea64f68a2b8fe762e7'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6q0127_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 1235-A 重刻智證傳引
@@ -41,7 +41,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6q0127_X_000-mulu-2
     span:
-    - front
+    - body
     - 356
     - 356
   label: 智證傳
@@ -77,7 +77,7 @@ table_of_contents:
   label: No. 1235-C
   type: mulu
   level: 1
-hash: sha256:e16a0ca42660c202770d150697a18392d0dd81582eeb0c264a0306ecce7bea55
+hash: sha256:d8208ac12395ab056c4b0f27e9ba368827b50bd224a304ac8a1510b589360b90
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
